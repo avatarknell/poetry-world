@@ -1,5 +1,14 @@
 .header{
-    font-size: x-large;
+    font-size: 30px;
     background-color: brown;
     color: aqua;
+    height: 50px;
+    background-position: 70%;
+}
+h1{
+    color: aqua;
+}
+.commands{
+    color: burlywood;
+    font-size: large;
 }
