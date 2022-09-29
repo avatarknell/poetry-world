@@ -12,19 +12,22 @@
     <link href="./style.css" type="stylesheet">
     <header class="header">Theatre of Poetry</header>
     <h1>POETRY</h1>
-    <form action="https://avatarknell.github.io/poetry-world/" method="post">
+    <form action="https://poetrydb.org/title/Ozymandias/lines.json" method="post">
         <label for="uploadBtn" class="commands">Upload Artwork</label><br><br>
         <input type="file" name="poem">
         <input type="submit" value="submit" for="poem">
     </form>
     <form></form>
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
     <div>
         <h2>My Poem</h2>
-        <form>
-            <input name="entry" type="text">
+        <form" id="aNewPoem">
+            <textarea id="newPoem" ></textarea><br>
             <input type="submit" for="entry">
         </form>
+        <div id="poem1"></div>
+        <div id="poem2"></div>
+        <div id="poem3"></div>
     </div>
 
 </body>

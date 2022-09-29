@@ -16,3 +16,11 @@ body{
     background: fixed;
     background-color: darkgray;
 }
+#poem1{
+    border: 5px;
+    border-top: 10px;
+    border-color: aqua;
+}
+#newPoem{
+    height: 200px;
+}
