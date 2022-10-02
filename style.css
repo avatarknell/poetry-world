@@ -8,19 +8,13 @@
 h1{
     color: aqua;
 }
-.commands{
-    color: burlywood;
-    font-size: large;
-}
 body{
     background: fixed;
     background-color: darkgray;
 }
-#poem1{
-    border: 5px;
-    border-top: 10px;
-    border-color: aqua;
-}
-#newPoem{
-    height: 200px;
+.poems{
+    border-radius: 10px;
+    background-color: beige;
+    width: fit-content;
+    border-style: double;
 }
