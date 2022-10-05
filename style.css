@@ -17,4 +17,6 @@ body{
     background-color: beige;
     width: fit-content;
     border-style: double;
+    float: left;
+    justify-content: center;
 }
